@@ -4,6 +4,7 @@
 
 html, body, main, #home {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -79,15 +80,29 @@ body {
 /* Estrutura de conteúdos */
 #servicos {
     background: #ffffff;
-    padding: 20px 0;
 }
 
 #servicos h2, h3 {
     color: #7c25f8;
 }
 
+#recursos h2 {
+    color: #ffffff;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
 .albuns {
     padding: 10px 0;
+}
+
+.rotacionar {
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 80px;
 }
 
 /* Tipografia */
@@ -117,6 +132,10 @@ h3 {
         margin: 10px 15px;
         font-size: 1em;
     }
+
+    .albuns-start {
+        margin-bottom: 20px;
+    }
 }
 
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
@@ -128,6 +147,10 @@ h3 {
 
     .btn-custom {
         margin: 10px 15px;
+    }
+
+    .albuns-start {
+        margin-bottom: 20px;
     }
 }
 
