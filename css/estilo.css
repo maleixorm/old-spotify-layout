@@ -171,6 +171,15 @@ h3 {
     .albuns-start {
         margin-bottom: 20px;
     }
+
+    .footer-start {
+        margin-bottom: 20px;
+    }
+
+    footer ul li {
+        float: none;
+        display: inline-block;
+    }
 }
 
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
@@ -187,6 +196,15 @@ h3 {
     .albuns-start {
         margin-bottom: 20px;
     }
+
+    .footer-start {
+        margin-bottom: 20px;
+    }
+
+    footer ul li {
+        float: none;
+        display: inline-block;
+    }
 }
 
 /* Dispositivos médios (tablets com 768px ou mais) */
@@ -194,6 +212,14 @@ h3 {
 {
     h1 {
         font-size: 4em;
+    }
+
+    .img-brand {
+        width: 102px;
+    }
+
+    footer ul li a img {
+        width: 36px;
     }
 }
 
